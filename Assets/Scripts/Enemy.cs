@@ -12,6 +12,7 @@ public class EnemyMovement : MonoBehaviour
 
     [Header("Damage Settings")]
     public float arrowDamage = 25.0f; // Default damage taken from an arrow
+    public float playerDamage = 10.0f; // Damage dealt to the player
 
     private Animator animator;
     private float direction = -1f; // Start moving left
@@ -84,6 +85,7 @@ public class EnemyMovement : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
     public void Heal(float amount)
     {
         CurrentHealth += amount;
@@ -101,6 +103,21 @@ public class EnemyMovement : MonoBehaviour
         {
             TakeDamage(arrowDamage);
             Destroy(collision.collider.gameObject); // Optionally destroy the arrow on hit
+        }
+        else if (collision.collider.CompareTag("Player"))
+        {
+            // Trigger the attack/hurt animation
+            if (animator != null)
+            {
+                animator.SetTrigger("Attack");
+            }
+
+            // Optionally, damage the player if they have a PlayerHealth script
+            PlayerHealth playerHealth = collision.collider.GetComponent<PlayerHealth>();
+            if (playerHealth != null)
+            {
+                playerHealth.TakeDamage(playerDamage);
+            }
         }
     }
 }

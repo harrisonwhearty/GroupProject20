@@ -1,13 +1,18 @@
 using UnityEngine;
-using UnityEngine;
 
 public class PlayerHealth : MonoBehaviour
 {
     public float maxHealth = 100f;
     public float currentHealth;
-    public float enemyDamage = 10f; // Damage taken per collision
+    public HealthBar healthBar; // Assign in Inspector if you want to update a health bar
 
-    [SerializeField] private HealthBar healthBar; // Assign in Inspector
+    [Header("Animation")]
+    [SerializeField] private Animator animator; // Assign in Inspector
+
+    [Header("References")]
+    [SerializeField] private MonoBehaviour[] scriptsToDisable; // Assign your control scripts in Inspector
+
+    private bool isDead = false;
 
     void Start()
     {
@@ -16,22 +21,34 @@ public class PlayerHealth : MonoBehaviour
             healthBar.SetHealth(currentHealth, maxHealth);
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.collider.CompareTag("Enemy"))
-        {
-            TakeDamage(enemyDamage);
-        }
-    }
-
     public void TakeDamage(float amount)
     {
+        if (isDead) return; // Prevent further damage after death
+
         currentHealth -= amount;
         if (currentHealth < 0) currentHealth = 0;
 
         if (healthBar != null)
             healthBar.SetHealth(currentHealth, maxHealth);
 
-        // Optionally, handle player death here
+        if (currentHealth <= 0 && !isDead)
+        {
+            Die();
+        }
+    }
+
+    private void Die()
+    {
+        isDead = true;
+        if (animator != null)
+        {
+            animator.SetBool("IsDead", true); // Use a bool parameter named "IsDead"
+        }
+        // Disable player control scripts
+        foreach (var script in scriptsToDisable)
+        {
+            if (script != null)
+                script.enabled = false;
+        }
     }
 }
