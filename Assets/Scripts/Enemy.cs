@@ -3,7 +3,8 @@ using UnityEngine;
 public class EnemyMovement : MonoBehaviour
 {
     public float speed = 2.0f;
-    public float detectionRange = 10.0f;
+    public float patrolTime = 2.0f; // Time to move in one direction before turning
+    public float detectionRange = 5.0f; // Detection radius for chasing the player
 
     [Header("Health Settings")]
     public float maxHealth = 100.0f;
@@ -12,37 +13,65 @@ public class EnemyMovement : MonoBehaviour
     [Header("Damage Settings")]
     public float arrowDamage = 25.0f; // Default damage taken from an arrow
 
-    private Transform target;
+    private Animator animator;
+    private float direction = -1f; // Start moving left
+    private float patrolTimer;
+    private Transform player;
+    private bool isChasing = false;
 
     void Start()
     {
         CurrentHealth = maxHealth;
+        animator = GetComponent<Animator>();
+        patrolTimer = patrolTime;
 
-        GameObject player = GameObject.FindGameObjectWithTag("Player");
-        if (player != null)
+        GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
+        if (playerObj != null)
         {
-            target = player.transform;
+            player = playerObj.transform;
         }
     }
 
     void Update()
     {
-        if (target != null && IsTargetDetected())
+        if (player != null && IsPlayerInRange())
         {
-            MoveTowardsTarget();
+            // Chase the player
+            isChasing = true;
+            Vector3 directionToPlayer = (player.position - transform.position).normalized;
+            transform.position += directionToPlayer * speed * Time.deltaTime;
+
+            // Set animation parameter for direction (right: 1, left: -1)
+            if (animator != null)
+            {
+                animator.SetFloat("MoveX", Mathf.Sign(directionToPlayer.x));
+            }
+        }
+        else
+        {
+            // Patrol left and right
+            isChasing = false;
+            transform.position += Vector3.right * direction * speed * Time.deltaTime;
+
+            if (animator != null)
+            {
+                animator.SetFloat("MoveX", direction);
+            }
+
+            patrolTimer -= Time.deltaTime;
+            if (patrolTimer <= 0f)
+            {
+                direction *= -1f; // Reverse direction
+                patrolTimer = patrolTime;
+                // Optional: flip sprite if using SpriteRenderer
+                // GetComponent<SpriteRenderer>().flipX = direction > 0;
+            }
         }
     }
 
-    bool IsTargetDetected()
+    bool IsPlayerInRange()
     {
-        float distance = Vector3.Distance(transform.position, target.position);
-        return distance <= detectionRange;
-    }
-
-    void MoveTowardsTarget()
-    {
-        Vector3 direction = (target.position - transform.position).normalized;
-        transform.position += direction * speed * Time.deltaTime;
+        return Vector3.Distance(transform.position, player.position) <= detectionRange;
     }
 
     public void TakeDamage(float amount)
@@ -55,7 +84,6 @@ public class EnemyMovement : MonoBehaviour
             Destroy(gameObject);
         }
     }
-
     public void Heal(float amount)
     {
         CurrentHealth += amount;
