@@ -3,22 +3,25 @@ using UnityEngine;
 public class EnemyMovement : MonoBehaviour
 {
     public float speed = 2.0f;
-    public float patrolTime = 2.0f; // Time to move in one direction before turning
-    public float detectionRange = 5.0f; // Detection radius for chasing the player
+    public float patrolTime = 2.0f;
+    public float detectionRange = 5.0f;
 
     [Header("Health Settings")]
     public float maxHealth = 100.0f;
     public float CurrentHealth { get; private set; }
 
     [Header("Damage Settings")]
-    public float arrowDamage = 25.0f; // Default damage taken from an arrow
-    public float playerDamage = 10.0f; // Damage dealt to the player
+    public float arrowDamage = 25.0f;
+    public float playerDamage = 10.0f;
 
     private Animator animator;
-    private float direction = -1f; // Start moving left
+    private float direction = -1f;
     private float patrolTimer;
     private Transform player;
     private bool isChasing = false;
+
+    // Store reference to the player in range for attack
+    private PlayerHealth playerHealthInRange;
 
     void Start()
     {
@@ -37,12 +40,10 @@ public class EnemyMovement : MonoBehaviour
     {
         if (player != null && IsPlayerInRange())
         {
-            // Chase the player
             isChasing = true;
             Vector3 directionToPlayer = (player.position - transform.position).normalized;
             transform.position += directionToPlayer * speed * Time.deltaTime;
 
-            // Set animation parameter for direction (right: 1, left: -1)
             if (animator != null)
             {
                 animator.SetFloat("MoveX", Mathf.Sign(directionToPlayer.x));
@@ -50,7 +51,6 @@ public class EnemyMovement : MonoBehaviour
         }
         else
         {
-            // Patrol left and right
             isChasing = false;
             transform.position += Vector3.right * direction * speed * Time.deltaTime;
 
@@ -62,10 +62,8 @@ public class EnemyMovement : MonoBehaviour
             patrolTimer -= Time.deltaTime;
             if (patrolTimer <= 0f)
             {
-                direction *= -1f; // Reverse direction
+                direction *= -1f;
                 patrolTimer = patrolTime;
-                // Optional: flip sprite if using SpriteRenderer
-                // GetComponent<SpriteRenderer>().flipX = direction > 0;
             }
         }
     }
@@ -73,6 +71,8 @@ public class EnemyMovement : MonoBehaviour
     bool IsPlayerInRange()
     {
         return Vector3.Distance(transform.position, player.position) <= detectionRange;
+        animator.ResetTrigger("Attack");
+        animator.ResetTrigger("AttackRight");
     }
 
     public void TakeDamage(float amount)
@@ -102,22 +102,44 @@ public class EnemyMovement : MonoBehaviour
         if (collision.collider.CompareTag("Arrow"))
         {
             TakeDamage(arrowDamage);
-            Destroy(collision.collider.gameObject); // Optionally destroy the arrow on hit
+            Destroy(collision.collider.gameObject);
         }
         else if (collision.collider.CompareTag("Player"))
         {
-            // Trigger the attack/hurt animation
-            if (animator != null)
+            if (animator != null && player != null)
             {
-                animator.SetTrigger("Attack");
+                float directionToPlayer = player.position.x - transform.position.x;
+                if (directionToPlayer < 0)
+                {
+                    animator.SetTrigger("Attack");
+                }
+                else
+                {
+                    animator.SetTrigger("AttackRight");
+                }
             }
 
-            // Optionally, damage the player if they have a PlayerHealth script
-            PlayerHealth playerHealth = collision.collider.GetComponent<PlayerHealth>();
-            if (playerHealth != null)
-            {
-                playerHealth.TakeDamage(playerDamage);
-            }
+            // Store reference to the player's health script
+            playerHealthInRange = collision.collider.GetComponent<PlayerHealth>();
+        }
+    }
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.collider.CompareTag("Player"))
+        {
+            playerHealthInRange = null;
+        }
+
+    }
+
+    // Call this from an Animation Event in both attack animations
+    public void DealDamageToPlayer()
+    {
+        if (playerHealthInRange != null)
+        {
+            playerHealthInRange.TakeDamage(playerDamage);
         }
     }
 }
+

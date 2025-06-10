@@ -942,11 +942,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92b47bd12b1096a4b83570dfe7cecca8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
-  currentHealth: 0
+  maxHealth: 3
+  currentHealth: 3
   healthBar: {fileID: 0}
   animator: {fileID: 0}
   scriptsToDisable: []
+  bowObject: {fileID: 0}
 --- !u!114 &830994276
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2060,14 +2061,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 260125688543000099, guid: 1878af590816f1246b60915c84285cf4, type: 3}
-      propertyPath: playerDamage
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1229050043172269892, guid: 1878af590816f1246b60915c84285cf4, type: 3}
-      propertyPath: m_Constraints
-      value: 4
-      objectReference: {fileID: 0}
     - target: {fileID: 6164745092960439441, guid: 1878af590816f1246b60915c84285cf4, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -2295,7 +2288,7 @@ MonoBehaviour:
   scriptsToDisable:
   - {fileID: 9008921241275719418}
   - {fileID: 365558589}
-  - {fileID: 0}
+  bowObject: {fileID: 365558581}
 --- !u!1001 &9193225366404814472
 PrefabInstance:
   m_ObjectHideFlags: 0

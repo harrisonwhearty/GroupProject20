@@ -11,6 +11,7 @@ public class PlayerHealth : MonoBehaviour
 
     [Header("References")]
     [SerializeField] private MonoBehaviour[] scriptsToDisable; // Assign your control scripts in Inspector
+    [SerializeField] private GameObject bowObject; // Assign your bow GameObject in Inspector
 
     private bool isDead = false;
 
@@ -42,13 +43,14 @@ public class PlayerHealth : MonoBehaviour
         isDead = true;
         if (animator != null)
         {
-            animator.SetBool("IsDead", true); // Use a bool parameter named "IsDead"
+            animator.SetBool("IsDead", true);
         }
-        // Disable player control scripts
         foreach (var script in scriptsToDisable)
         {
             if (script != null)
                 script.enabled = false;
         }
+        if (bowObject != null)
+            Destroy(bowObject);
     }
 }
