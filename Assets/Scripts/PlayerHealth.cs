@@ -13,6 +13,8 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] private MonoBehaviour[] scriptsToDisable; // Assign your control scripts in Inspector
     [SerializeField] private GameObject bowObject; // Assign your bow GameObject in Inspector
 
+    [SerializeField] private GameOverManager gameOverManager; // Assign in Inspector
+
     private bool isDead = false;
 
     void Start()
@@ -38,19 +40,25 @@ public class PlayerHealth : MonoBehaviour
         }
     }
 
+    
+
     private void Die()
     {
         isDead = true;
         if (animator != null)
-        {
             animator.SetBool("IsDead", true);
-        }
+
         foreach (var script in scriptsToDisable)
-        {
             if (script != null)
                 script.enabled = false;
-        }
+
         if (bowObject != null)
             Destroy(bowObject);
+
+        // Disable collider if needed...
+
+        if (gameOverManager != null)
+            gameOverManager.ShowGameOver();
     }
+
 }
