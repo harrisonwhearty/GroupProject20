@@ -1,0 +1,2736 @@
+fileFormatVersion: 2
+guid: b1cacb18ded29d1428c493b9b615f54c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: House Outside_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 423
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4814950e7831be4c976d748687c147e
+      internalID: 279239147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 423
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4dce45b59da44b48b7e4c42efc5bc8a
+      internalID: 864672585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 423
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5494ed3ff35e5394cbb52d76c7f94707
+      internalID: -1867415634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 423
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86366d296ee3eed4d99fd7b565b9855d
+      internalID: -1517648615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 423
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d62a80e95a362f6458e587efdfaedde2
+      internalID: 480835224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 423
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c60454a7f865694ba2d7c4ba59dc371
+      internalID: -1059465241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 423
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94161029a2d5a704386be222348f5733
+      internalID: 741749779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 423
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fc34ccb14a04264a8ffc3b7faa87458
+      internalID: -348166905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 423
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5bebc82ad1619a43ba5f8207ece4b1c
+      internalID: 1908264899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 423
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb2f75c529f96884dae46cafa1d2f01a
+      internalID: -319436722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 423
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7037936e9ce6c4f4990ab839656bbd29
+      internalID: 108539393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_11
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 423
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de1d7bdd28deb84db199ab1efc4e1e4
+      internalID: 341166390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_12
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 423
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98aa3137df2fd1f4d9625366a1dcc4ed
+      internalID: -1441916821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_13
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 423
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca0d81fc40299cc4c9aeb09a73f7474d
+      internalID: 1282223555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_14
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 423
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40b50ae2816e2674098e884600a2614e
+      internalID: 844880828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_15
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 423
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0ab32c6186fd2643bb873543f7ce075
+      internalID: 18342182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_16
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 423
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33a7c785c8da573439ffb6ac5b18f697
+      internalID: 630584041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_17
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 423
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d3c961c0a2e8f44685f06ab23d304ec
+      internalID: 645089031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_18
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 423
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a3eaaf7197194f418989a30392a6c98
+      internalID: 1619189666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_19
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 423
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebdbd2ce82a75a34ab7f94baaed40418
+      internalID: 1259714294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_20
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 423
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 501a37e176afacb4c8c43d269ef51050
+      internalID: -1898315117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 359
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 482c348d314647c4ab64e4068f189bff
+      internalID: -462440651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_22
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 359
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d1a679070e29b842a70c5985d52c7a0
+      internalID: -877345080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_23
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 359
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92e82d43fefe06f44bb27cde12b32290
+      internalID: -1296885521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_24
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 359
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb1c30e60c947de41bb5ab739176a18c
+      internalID: -771147517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_25
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 359
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f9333975bac73429ffa2224522183f
+      internalID: 48083623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_26
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 359
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74dba4eab2e088a48b4ce1d47eeaabf7
+      internalID: -1884398641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_27
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 359
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74805e0c379b19442bafa67026bb739b
+      internalID: -826535216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_28
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 359
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 784646e82b2cee049a324307d08c8f69
+      internalID: 2107959745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_29
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 359
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5024ba89ec396404395c51ebf8619780
+      internalID: -1719173089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_30
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 359
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc4185ead55cce54c8544ad22d701d88
+      internalID: -1379696772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_31
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 359
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f07d20ecf0f26c46a28960e5b5c1105
+      internalID: -154074355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_32
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 359
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 394633d42efa4674fb79f20bec846bf3
+      internalID: -1946500456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_33
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 359
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a75ac13d8806e1f4b9b59de21fdc7238
+      internalID: 445280164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_34
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 359
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c837f3e66d160674fad9c2c5dfa3682a
+      internalID: -1722579852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_35
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 359
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f06ca168c92724745a01028eee23535d
+      internalID: 991741968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 295
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b74a61384d7d8ea4785ecf324b4cb7eb
+      internalID: -1619407620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_37
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 295
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28c6142dca3701e40965bf3aae20571d
+      internalID: -1991155524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_38
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 295
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 874ae2391aa9406478118a70b3d0e741
+      internalID: 62596033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_39
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 295
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73663275dd218d649afa7e7935e4ffe3
+      internalID: -1545406184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_40
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 295
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98ae7d6d589ab874eac4305d7add6a91
+      internalID: 1605769633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_41
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 295
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a759d48a4da39140aa5ff5402c2b490
+      internalID: -745205377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_42
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 295
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adfa6b9aa6d718448ba2f736ae1572e6
+      internalID: 14840266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_43
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 295
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 042bd11afdd433d4bbd3d9dee0205d73
+      internalID: -1637912826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_44
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 295
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08358c33ab1b8c84b955a8d500793554
+      internalID: -1108306475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_45
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 295
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6d5deb69b689bb4489b05771d4889ac
+      internalID: -627424573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_46
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 295
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9246ce73e01dc1a41a4052f959a60ae7
+      internalID: 1334433139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_47
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 295
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b53507463a6090d4e925e96da32b06dc
+      internalID: -1735045936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_48
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 295
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be53c972c09936b4eb1ac3de50b4bede
+      internalID: 1412865888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_49
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 295
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44b70c8cab995fe40a354bd98b365e8c
+      internalID: -1983541914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_50
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 295
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df26538dd99690e4fb55958223683c0f
+      internalID: -634927747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_51
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 295
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffaaa5a1666bd26419f3f911980bb8d1
+      internalID: -244584311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_52
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 295
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d37091c23b9daf4f9f2884c411b2e4d
+      internalID: -1175557690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_53
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 231
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84b6998a0352d4c43a4f9aca00830367
+      internalID: -361375777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_54
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 231
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8ba68f3ed083ce44853f19a2aa5d4d6
+      internalID: -399011542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_55
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 231
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99290a1de5dfbd54c90dcdc97d458ecc
+      internalID: -996601296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_56
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 231
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1d22f77b5bb05847aef6aff9fe0ccad
+      internalID: 656698554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_57
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 231
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f24c80547f3c97540a94bd7a44235a33
+      internalID: -1279348976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_58
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 231
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5b104ab077ddc84291ef16daf4ad6c0
+      internalID: 1054896263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_59
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 231
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d48641ca99013047a3f2a6a586a69e8
+      internalID: -261100110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_60
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 231
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36c271f3093ede340bb7404fb012fc3c
+      internalID: -1072899372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_61
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 231
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd6f65188b6fc3a489fe837a9cc029dd
+      internalID: -72587176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_62
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 231
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdfe3ad9c741a7942af08263bd38a645
+      internalID: 129671318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_63
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 231
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4da819b589b1704ab783a855f2210c3
+      internalID: 717897837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_64
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 231
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30b9c17589d9d0f4c8f011fcb28e43e5
+      internalID: 1914364312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_65
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 231
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 421d22c919b986a438908ea9c06c9dda
+      internalID: 36848278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_66
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 231
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75c6e57433d6b504d8272d7e290a4d82
+      internalID: 913702115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_67
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 231
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 700c129284777b44fb5a8b16a91a0157
+      internalID: 1128060210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_68
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 231
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 537c6d96b3b100d49b6600ec57c8525e
+      internalID: 839009802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_69
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 231
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aab80994d7711674ab4a8a751434fb9c
+      internalID: 724844436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_70
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 231
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7141aeea55f99ed4d9e3fc028b3026f4
+      internalID: 1536004615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_71
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 231
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecb464abbdf56a04496c1570e181187d
+      internalID: 1736434087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_72
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 231
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 078ebbc9a38ef9f43a4460de69956871
+      internalID: 93475131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_73
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 231
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c534a0b4d3d36e4fbffd32ba0126697
+      internalID: -1879166475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_74
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 167
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdd6b923af2405e4ea749a58e0128e3e
+      internalID: -23645583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_75
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 167
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d13f50aab63a144ea000f2ab3cd88c1
+      internalID: 2061496671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_76
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 167
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 031ff524810f00442b4b2d11ab3b6438
+      internalID: 630327304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_77
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 167
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eff1af99e1a151408c935b453ce313d
+      internalID: 1232031356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_78
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 167
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9d02f8b7cc5364479f0ed684f078315
+      internalID: 997787075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_79
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 167
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 098ef7791aacdb74890d196ef56b7834
+      internalID: 2051324222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_80
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 167
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74fa5e0a555d2a44c98716a634f793b9
+      internalID: -660662495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_81
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 167
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 019eddb8fb79bc94783ca9e8b15b5ad3
+      internalID: -478231985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_82
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 167
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 898dcd00e34b2fa4eb4b9a7b94f455c0
+      internalID: -2102252295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_83
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 167
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d053d15bf47a3f4ba3eb174ab611fd6
+      internalID: -402282875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_84
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 167
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0fa474be17ae964e9211176dd60103b
+      internalID: 1702675991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_85
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 167
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ba40e34de3ecc41aac05217b65cf0a
+      internalID: 1454630951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_86
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 167
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7448aa3f2da2ead44b0568222e31729e
+      internalID: -934668433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_87
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 167
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20149dd214a6d044b83f20ca067b3320
+      internalID: 1734489828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_88
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 167
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6c9829dfbe3623449496c196527411f
+      internalID: 1390045666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_89
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 167
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb53346b03a80054482ba260dbd174c3
+      internalID: -1847360785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_90
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 167
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faef29192e097b140be1e963c86901fe
+      internalID: -14997867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_91
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 167
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a76c77f12c57d9c4495dab18e7f326dc
+      internalID: -990822870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_92
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 167
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bee71d07bf8d76542bcfb31b226a977d
+      internalID: 1785205916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_93
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 167
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebfc10447c727484e9e11c5600c98e52
+      internalID: -19185961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_94
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 167
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ad4e7bd1b56cc34289e88ac997c8ffd
+      internalID: -2102013041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_95
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 103
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a5d047b7bc757d40a122a8d0ace89cd
+      internalID: 1075914031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_96
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 103
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f09dca5d4a7911409e964be0ca62c87
+      internalID: 1597349773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_97
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 103
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9108d2d5cdbd5944092bba19153f8c4c
+      internalID: 1174871936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_98
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 103
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 745f51b11d2538e4488eb94630a08d80
+      internalID: -893436147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_99
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 103
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14194234cedeb484ea06acf8ff9bd668
+      internalID: -1967310888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_100
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 103
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9616ab557382a814d8b46e55073624b6
+      internalID: 2118093435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_101
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 103
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aaf179beff1bfa43a44b3b2fa4e0145
+      internalID: 2005267617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_102
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 103
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b790a3083b43b24429adc1c3be709c79
+      internalID: -204544163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_103
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 103
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5cb63e06ff07cd41bd01fbffe6c4fde
+      internalID: -1380252699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_104
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 103
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eccc9b7af142f6a4ab868a15a6f413dd
+      internalID: 280726089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_105
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 103
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 600e839133d4fb749a3c6624579ff9ad
+      internalID: 965735109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_106
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 103
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59b56562ef4125049b93dd6282a7c31f
+      internalID: -14765190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_107
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 103
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf20f952d4fc3b74a92d3114c5ec0db3
+      internalID: -1496078260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 39
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15d4081b437caf849a9ebc7f851b9547
+      internalID: -643267372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_109
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 39
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 662395b8d4b374a439c476412e6eccb0
+      internalID: 1313025510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_110
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 39
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b82e2bcd51213745aa1350e15934c4f
+      internalID: 1003093995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_111
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 39
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a93ff88cd2a7914dace6652d8e6fa2e
+      internalID: 1046200362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_112
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 39
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e428eaba31916140b6b593d1af73164
+      internalID: 1809732357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_113
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 39
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71da96097108e1244a655d4921255d66
+      internalID: -1469505254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_114
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 39
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49766d9d1e7c141489016e1cdbd6a889
+      internalID: -392880424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_115
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 39
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91aa7d7ba3699d24684105f8d64cd9bb
+      internalID: 1716238492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_116
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 39
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bed3442af58eca44aa3fc7d3ee1f5e0
+      internalID: -1808570992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: House Outside_117
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 39
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5133a85c501ee034da43faac7fbeaa97
+      internalID: 205889890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      House Outside_0: 279239147
+      House Outside_1: 864672585
+      House Outside_10: 108539393
+      House Outside_100: 2118093435
+      House Outside_101: 2005267617
+      House Outside_102: -204544163
+      House Outside_103: -1380252699
+      House Outside_104: 280726089
+      House Outside_105: 965735109
+      House Outside_106: -14765190
+      House Outside_107: -1496078260
+      House Outside_108: -643267372
+      House Outside_109: 1313025510
+      House Outside_11: 341166390
+      House Outside_110: 1003093995
+      House Outside_111: 1046200362
+      House Outside_112: 1809732357
+      House Outside_113: -1469505254
+      House Outside_114: -392880424
+      House Outside_115: 1716238492
+      House Outside_116: -1808570992
+      House Outside_117: 205889890
+      House Outside_12: -1441916821
+      House Outside_13: 1282223555
+      House Outside_14: 844880828
+      House Outside_15: 18342182
+      House Outside_16: 630584041
+      House Outside_17: 645089031
+      House Outside_18: 1619189666
+      House Outside_19: 1259714294
+      House Outside_2: -1867415634
+      House Outside_20: -1898315117
+      House Outside_21: -462440651
+      House Outside_22: -877345080
+      House Outside_23: -1296885521
+      House Outside_24: -771147517
+      House Outside_25: 48083623
+      House Outside_26: -1884398641
+      House Outside_27: -826535216
+      House Outside_28: 2107959745
+      House Outside_29: -1719173089
+      House Outside_3: -1517648615
+      House Outside_30: -1379696772
+      House Outside_31: -154074355
+      House Outside_32: -1946500456
+      House Outside_33: 445280164
+      House Outside_34: -1722579852
+      House Outside_35: 991741968
+      House Outside_36: -1619407620
+      House Outside_37: -1991155524
+      House Outside_38: 62596033
+      House Outside_39: -1545406184
+      House Outside_4: 480835224
+      House Outside_40: 1605769633
+      House Outside_41: -745205377
+      House Outside_42: 14840266
+      House Outside_43: -1637912826
+      House Outside_44: -1108306475
+      House Outside_45: -627424573
+      House Outside_46: 1334433139
+      House Outside_47: -1735045936
+      House Outside_48: 1412865888
+      House Outside_49: -1983541914
+      House Outside_5: -1059465241
+      House Outside_50: -634927747
+      House Outside_51: -244584311
+      House Outside_52: -1175557690
+      House Outside_53: -361375777
+      House Outside_54: -399011542
+      House Outside_55: -996601296
+      House Outside_56: 656698554
+      House Outside_57: -1279348976
+      House Outside_58: 1054896263
+      House Outside_59: -261100110
+      House Outside_6: 741749779
+      House Outside_60: -1072899372
+      House Outside_61: -72587176
+      House Outside_62: 129671318
+      House Outside_63: 717897837
+      House Outside_64: 1914364312
+      House Outside_65: 36848278
+      House Outside_66: 913702115
+      House Outside_67: 1128060210
+      House Outside_68: 839009802
+      House Outside_69: 724844436
+      House Outside_7: -348166905
+      House Outside_70: 1536004615
+      House Outside_71: 1736434087
+      House Outside_72: 93475131
+      House Outside_73: -1879166475
+      House Outside_74: -23645583
+      House Outside_75: 2061496671
+      House Outside_76: 630327304
+      House Outside_77: 1232031356
+      House Outside_78: 997787075
+      House Outside_79: 2051324222
+      House Outside_8: 1908264899
+      House Outside_80: -660662495
+      House Outside_81: -478231985
+      House Outside_82: -2102252295
+      House Outside_83: -402282875
+      House Outside_84: 1702675991
+      House Outside_85: 1454630951
+      House Outside_86: -934668433
+      House Outside_87: 1734489828
+      House Outside_88: 1390045666
+      House Outside_89: -1847360785
+      House Outside_9: -319436722
+      House Outside_90: -14997867
+      House Outside_91: -990822870
+      House Outside_92: 1785205916
+      House Outside_93: -19185961
+      House Outside_94: -2102013041
+      House Outside_95: 1075914031
+      House Outside_96: 1597349773
+      House Outside_97: 1174871936
+      House Outside_98: -893436147
+      House Outside_99: -1967310888
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

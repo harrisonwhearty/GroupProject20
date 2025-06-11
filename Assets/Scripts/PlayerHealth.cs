@@ -40,7 +40,7 @@ public class PlayerHealth : MonoBehaviour
         }
     }
 
-    
+
 
     private void Die()
     {
@@ -55,10 +55,8 @@ public class PlayerHealth : MonoBehaviour
         if (bowObject != null)
             Destroy(bowObject);
 
-        // Disable collider if needed...
-
+        Debug.Log("Player died, calling ShowGameOver");
         if (gameOverManager != null)
             gameOverManager.ShowGameOver();
     }
-
 }
